@@ -18,6 +18,8 @@
   width: 18rem;
   align-self: center;
   margin-top: 1.5rem;
+  border-top-right-radius:1rem;
+  border-bottom-right-radius:1rem;
 }
 .nav-bar {
   display: flex;
@@ -198,5 +200,20 @@ p {
   .git,
   .face {
     font-size: 2.5rem;
+    transition:all 0.3s ease-in-out;
   }
+    .face:hover{
+    transform: translateY(-8px);
+  }
+  .what:hover{
+    transform: translateY(-8px);
+  }
+  .git:hover{
+    transform: translateY(-8px);
+
+  }
+  .ins:hover{
+    transform: translateY(-8px);
+  }
+}
 }
