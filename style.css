@@ -18,8 +18,8 @@
   width: 18rem;
   align-self: center;
   margin-top: 1.5rem;
-  border-top-right-radius:1rem;
-  border-bottom-right-radius:1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 .nav-bar {
   display: flex;
@@ -38,8 +38,8 @@ a {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
 }
 .content-top {
   display: flex;
@@ -182,7 +182,7 @@ p {
     transition: all 0.3s ease-in-out;
   }
   .nav-bar a:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
   .icon {
@@ -199,10 +199,10 @@ p {
   .ins,
   .git,
   .face {
-    font-size: 2.5rem;
-    transition:all 0.3s ease-in-out;
+    font-size: 3rem;
+    transition: all 0.25s ease-in-out;
   }
-    .face:hover{
+  .face:hover{
     transform: translateY(-8px);
   }
   .what:hover{
@@ -215,5 +215,4 @@ p {
   .ins:hover{
     transform: translateY(-8px);
   }
-}
 }
